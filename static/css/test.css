@@ -1,0 +1,82 @@
+.liketitle {
+    text-align: left;
+    margin-left: 470px;
+    margin-bottom: -30px;
+    font-size: 25px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.photo1 {
+    width: 485px;
+    display: flex;
+}
+
+.companytitlephoto {
+    display: flex;
+    justify-content: center;
+}
+
+.photobox {
+    width: 250px;
+    height: 350px;
+}
+
+.cat1 {
+    margin-left: 500px;
+    margin-right: -200px;
+    margin-bottom: 10px;
+    ;
+}
+
+.companystory {
+    width: 250px;
+    height: 350px;
+    text-align: left;
+    margin-left: 500px;
+}
+
+.contecttile {
+    /*채용공고타이틀*/
+    margin-top: -5px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.explanation {
+    /*설명글 박스*/
+    margin-bottom: 10px;
+}
+
+.explanationtext {
+    color: #bbb;
+}
+
+.conpanyminiphoto {
+    border-radius: 50px;
+    width: 25px;
+    height: 25px;
+}
+
+.companyname {
+    text-decoration: none;
+    color: #0d0d12;
+    font-weight: bold;
+}
+
+.proceeding {
+    width: 60px;
+    height: 26px;
+    margin-left: 160px;
+    padding-left: 10px;
+    padding-top: 3px;
+    font-size: 12px;
+    border-radius: 5px;
+    border: 1px solid #bbb;
+    background: #fff;
+}
+
+.companyproceeding {
+    color: #0000ee;
+    text-decoration: none;
+}

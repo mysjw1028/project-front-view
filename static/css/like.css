@@ -1,0 +1,59 @@
+.liketitle {
+	margin-left: 470px;
+	margin-bottom: -50px;
+	margin-top: 50px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+
+.photosetting {
+	width: 250px;
+	height: 350px;
+	margin-left: 500px;
+}
+
+.photobox {
+	margin-top: 80px;
+
+}
+
+.photobox .photocompany {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.companywrite {
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.companywrite .companystory .contecttile {
+	margin-bottom: 15px;
+	font-size: 17px;
+}
+
+.companywrite .companystory .explanation {
+	color: #bbb;
+	font-size: 12px;
+}
+
+.companywrite .companystory .companyimage {
+	margin-top: 10px;
+}
+
+
+.companywrite .companystory .companyimage .conpanyminiphoto {
+	border-radius: 50px;
+}
+
+.companywrite .companystory .likeproceeding {
+	width: 60px;
+	height: 26px;
+	text-align: center;
+	margin-left: 150px;
+	padding-top: 8px;
+	border: 1px solid #bbb;
+	border-radius: 5px;
+	color: #0000ee;
+}
