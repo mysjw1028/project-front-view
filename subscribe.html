@@ -1,68 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="./static/css/subscribe.css" rel="stylesheet" type="text/css" />
-        <link href="./static/css/reset.css" rel="stylesheet" type="text/css" />
-        <link href="./static/css/header.css" rel="stylesheet" type="text/css" />
+<head>
+    <!--한번 확인받기-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./static/css/subscribe.css" rel="stylesheet" type="text/css" />
+    <link href="./static/css/reset.css" rel="stylesheet" type="text/css" />
+    <link href="./static/css/header.css" rel="stylesheet" type="text/css" />
 
-    </head>
+</head>
 
-    <body>
-        <header class="header">
-            <div class="header_inner">
-                <div class="menu"><a href="#">메뉴</a></div>
-                <h1 class="logo"><a href="#"> 구해줘용</a></h1>
-                <ul class="gnb">
-                    <li><a href="#">채용</a></li>
-                    <li><a href="#">이력서</a></li>
-                </ul>
-                <ul class="login">
-                    <li><a href="#">로그인/회원가입</a></li>
-                </ul>
-                <ul class="service">
-                    <li><a href="#">기업 서비스</a></li>
-                </ul>
-            </div>
-        </header>
+<body>
+    <header class="header">
+        <div class="header_inner">
+            <div class="menu"><a href="#">메뉴</a></div>
+            <h1 class="logo"><a href="#"> 구해줘용</a></h1>
+            <ul class="gnb">
+                <li><a href="#">채용</a></li>
+                <li><a href="#">이력서</a></li>
+            </ul>
+            <ul class="login">
+                <li><a href="#">로그인/회원가입</a></li>
+            </ul>
+            <ul class="service">
+                <li><a href="#">기업 서비스</a></li>
+            </ul>
+        </div>
+    </header>
 
-        
 
-            <div class="container">
 
-                <div class="graph">구독</div>
-                    <table>
+    <div class="container">
 
-                        <thead><!--for문 돌리기-->
-                        <tr>
-                            <th>회사명</th><th>현재 올라온 공고</th><th>일자</th><th>상태</th>
-                        </tr>
-                        </thead>
+        <div class="graph">구독</div>
+        <table>
 
-                        <tbody>
-                        <tr>
-                            <td><a href="'/">회사명</td></a>  <td><a href="'/">회사명</td></a>  <td><a href="'/">일자</td></a>  <td class="recruitment"><a  class="next_company"href="'/">모집중</td></a>
-                        </tr>
-                        <tr>
-                            <td><a href="'/">회사명</td></a>  <td><a href="'/">회사명</td></a>  <td><a href="'/">일자</td></a>  <td class="recruitment"><a  class="next_company"href="'/">모집중</td></a>
-                        </tr>
-                        <tr>
-                            <td><a href="'/">회사명</td></a>  <td><a href="'/">회사명</td></a>  <td><a href="'/">일자</td></a>  <td class="recruitment"><a  class="next_company"href="'/">모집중</td></a>
-                        </tr>
-                        <tr>
-                            <td><a href="'/">회사명</td></a>  <td><a href="'/">회사명</td></a>  <td><a href="'/">일자</td></a>  <td class="deadline">
-                                <a  class="out_company"href="'/">마감</td></a>
-                        </tr>
-                        <tr>
-                            <td><a href="'/">회사명</td></a>  <td><a href="'/">회사명</td></a>  <td><a href="'/">일자</td></a>  <td class="deadline">
-                                <a  class="out_company"href="'/">마감</td></a>
-                        </tr>
-                        </tbody>
-                       
-                    </table>
-            </div><!--container-->
-    </body>
+            <thead class="company_header">
+
+                <tr>
+                    <th>회사명</th>
+                    <th>현재 올라온 공고</th>
+                    <th>일자</th>
+                    <th>상태</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <!--for문 돌리기-->
+
+                <tr class="company_body" onclick="location.href='/'" style="cursor:pointer">
+                    <td><a href="'/">회사명</td></a>
+                    <td><a href="'/">회사명</td></a>
+                    <td>일자</td>
+                    <td class="recruitment"><a class="next_company" href="'/">모집중</td></a>
+                </tr>
+                <tr class="company_body" onclick="location.href='/'" style="cursor:pointer">
+                    <td><a href="'/">회사명</td></a>
+                    <td><a href="'/">회사명</td></a>
+                    <td>일자</td>
+                    <td class="recruitment"><span class="next_company" href="'/">모집중</td></span>
+                </tr>
+                <tr class="company_body" onclick="location.href='/'" style="cursor:pointer">
+                    <td><a href="'/">회사명</td></a>
+                    <td><a href="'/">회사명</td></a>
+                    <td>일자</td>
+                    <td class="recruitment"><a class="next_company" href="'/">모집중</td></a>
+                </tr>
+                <tr class="company_body" onclick="location.href='/'" style="cursor:pointer">
+                    <td><a href="'/">회사명</td></a>
+                    <td><a href="'/">회사명</td></a>
+                    <td>일자</td>
+                    <td class="deadline">
+                        <a class="out_company" href="'/">마감
+                    </td></a>
+                </tr>
+                <tr class="company_body" onclick="location.href='/'" style="cursor:pointer">
+                    <td><a href="'/">회사명</td></a>
+                    <td><a href="'/">회사명</td></a>
+                    <td>일자</td>
+                    <td class="deadline">
+                        <a class="out_company" href="'/">마감
+                    </td></a>
+                </tr>
+        </table>
+        </tbody>
+
+
+        </table>
+    </div>
+    <!--container-->
+</body>
+
 </html>

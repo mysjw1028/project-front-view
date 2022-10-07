@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'RixInooAriDuriR';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2207-01@1.0/RixInooAriDuriR.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.header {
+    display: block;
+    background: #0d0d12;
+    border-bottom: 1px solid #bbb;
+    height: 50px;
+}
+
+.header_inner {
+    width: 1000px;
+    height: 100%;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+s .header_inner .menu {
+    text-align: center;
+    flex: 0 1 50px;
+    color: #bbb;
+
+}
+
+.header_inner .menu a {
+    margin-left: 45px;
+    color: #bbb;
+    width: 150px;
+}
+
+.header_inner .menu a:hover,
+.header_inner .gnb li a:hover {
+    color: #33ffcc;
+}
+
+
+
+.header_inner .login a {
+    display: block;
+    color: #888888;
+    overflow: hidden;
+    width: 60px;
+
+}
+
+.header_inner .login a:hover {
+    display: block;
+    color: #0d0d12;
+}
+
+.header_inner .service {
+    margin-top: 14px;
+    width: 133px;
+    height: 34px;
+    padding-left: -50px;
+}
+
+.header_inner .service a {
+    padding: 8px 30px;
+    border-radius: 30px;
+    border: 1px solid #bbb;
+    background-color: #f4f4f4;
+    line-height: 20px;
+}
+
+.header_inner .service a:hover {
+    color: #33ffcc;
+    background-color: #0d0d26;
+    border: 1px solid #0d0d26;
+}
