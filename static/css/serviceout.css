@@ -56,12 +56,10 @@
 }
 
 /*기업서비스 해제*/
-.service_cancellation_box {
-    justify-content: right;
-    align-items: flex-end;
+.service_cancellation_text_box {
     border: 1px solid #bbb;
     border-radius: 5px;
-    margin: -35px 475px 0 auto;
+    margin: -35px 280px 100px auto;
     width: 698px;
     height: 528px;
     box-sizing: content-box;
@@ -70,7 +68,7 @@
 
 
 
-.service_cancellation_box .service_cancellation {
+.service_cancellation_text_box .service_cancellation {
     margin: 32px 0 20px 30px;
     font-size: 18px;
     width: 300px;
@@ -81,7 +79,7 @@
 
 
 
-.service_cancellation_box .service_cancellation_information {
+.service_cancellation_text_box .service_cancellation_information {
     text-align: left;
     font-size: 14px;
     color: #bbb;
